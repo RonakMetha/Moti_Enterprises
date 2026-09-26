@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Moti Enterprises — Kitchen &amp; Home Store, Baramati</title>
+<meta name="description" content="Moti Enterprises is Baramati's trusted kitchen & home store on Station Road, opposite Jain Mandir. 1000+ genuine products, EMI plans, home delivery & expert advice." />
+<meta name="theme-color" content="#211D18" />
+
+<!-- Open Graph / Social -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Moti Enterprises — Kitchen & Home Store, Baramati" />
+<meta property="og:description" content="Everything your kitchen needs, under one roof. 1000+ genuine products, EMI plans, home delivery & a decade of trust in Baramati." />
+<meta property="og:locale" content="en_IN" />
+<meta name="twitter:card" content="summary" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%B2%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<!-- Local business structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeGoodsStore",
+  "name": "Moti Enterprises",
+  "telephone": "+919822038320",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Station Road, opposite Jain Mandir",
+    "addressLocality": "Baramati",
+    "addressRegion": "Maharashtra",
+    "postalCode": "413102",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.1490994, "longitude": 74.572731 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "18:00" }
+  ],
+  "sameAs": ["https://maps.app.goo.gl/fk3SPmpvsMMfwcSW8"]
+}
+</script>
+
+<style>
+  :root{
+    --paper:#F5EEDC;
+    --paper-alt:#FFFBF0;
+    --ink:#211D18;
+    --ink-soft:#4A4438;
+    --marigold:#E4A126;
+    --marigold-tint:#FBE6BC;
+    --marigold-dark:#C6871A;
+    --chili:#B8391C;
+    --chili-tint:#F3D3C4;
+    --chili-dark:#8F2C15;
+    --steel:#46595C;
+    --steel-tint:#DCE6E5;
+    --steel-dark:#31403F;
+    --line: rgba(33,29,24,.16);
+    --shadow-tag: 4px 4px 0 var(--ink);
+    --shadow-tag-sm: 3px 3px 0 var(--ink);
+    --radius-lg: 22px;
+    --radius-md: 16px;
+    --radius-sm: 10px;
+    --wrap: 1180px;
+  }
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important; }
+  }
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Work Sans',system-ui,sans-serif; font-size:16px; line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4,.display{ font-family:'Baloo 2',system-ui,sans-serif; font-weight:800; line-height:1.06; margin:0; letter-spacing:.2px; }
+  p{ margin:0; }
+  a{ color:inherit; text-decoration:none; }
+  img,svg{ display:block; max-width:100%; }
+  ul{ margin:0; padding:0; list-style:none; }
+  .wrap{ max-width:var(--wrap); margin:0 auto; padding:0 20px; }
+  section{ position:relative; }
+  .sr-only{ position:absolute; width:1px;height:1px; padding:0;margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+  .skip-link{ position:absolute; left:12px; top:-60px; background:var(--marigold); color:var(--ink); font-weight:700; padding:10px 16px; border-radius:8px; z-index:200; transition:top .2s; }
+  .skip-link:focus{ top:12px; }
+  a:focus-visible, button:focus-visible, summary:focus-visible{ outline:3px solid var(--marigold-dark); outline-offset:2px; border-radius:4px; }
+
+  /* ---------- Buttons ---------- */
+  .btn{ display:inline-flex; align-items:center; gap:10px; font-weight:700; font-family:'Work Sans',sans-serif; padding:14px 26px; border-radius:999px; border:2.5px solid var(--ink); cursor:pointer; transition:transform .15s ease, box-shadow .15s ease; box-shadow:var(--shadow-tag); font-size:.98rem; }
+  .btn:hover{ transform:translate(-2px,-2px); box-shadow:6px 6px 0 var(--ink); }
+  .btn:active{ transform:translate(0,0); box-shadow:2px 2px 0 var(--ink); }
+  .btn-chili{ background:var(--chili); color:#fff; }
+  .btn-marigold{ background:var(--marigold); color:var(--ink); }
+  .btn-outline{ background:transparent; color:var(--paper); border-color:var(--paper); box-shadow:4px 4px 0 rgba(245,238,220,.35); }
+  .btn-outline:hover{ box-shadow:6px 6px 0 rgba(245,238,220,.35); }
+  .btn-ink{ background:var(--ink); color:var(--paper); }
+  .btn-white{ background:#fff; color:var(--ink); }
+
+  /* ---------- Header ---------- */
+  #site-header{ position:sticky; top:0; z-index:100; background:var(--ink); border-bottom:4px solid var(--marigold); }
+  .header-row{ display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brand{ display:flex; align-items:center; gap:10px; }
+  .brand-mark{ width:38px; height:38px; background:var(--marigold); border-radius:10px; display:flex; align-items:center; justify-content:center; border:2px solid var(--paper); flex-shrink:0; }
+  .brand-mark i{ color:var(--ink); font-size:1.05rem; }
+  .brand-word{ font-family:'Baloo 2',sans-serif; font-weight:800; font-size:1.28rem; color:var(--paper); }
+  .brand-word span{ color:var(--marigold); }
+  nav.primary-nav{ display:none; }
+  nav.primary-nav ul{ display:flex; align-items:center; gap:28px; }
+  nav.primary-nav a{ color:rgba(245,238,220,.82); font-weight:600; font-size:.95rem; transition:color .15s; }
+  nav.primary-nav a:hover{ color:var(--marigold); }
+  .nav-cta{ background:var(--marigold); color:var(--ink); font-weight:700; padding:9px 20px; border-radius:999px; font-size:.9rem; }
+  .nav-cta:hover{ color:var(--ink); background:#f0b23f; }
+  #menu-btn{ background:none; border:2px solid rgba(245,238,220,.4); border-radius:8px; width:42px; height:42px; color:var(--paper); font-size:1.1rem; cursor:pointer; }
+  #mobile-menu{ display:none; background:var(--ink-soft); border-top:1px solid rgba(245,238,220,.15); }
+  #mobile-menu.open{ display:block; }
+  #mobile-menu ul{ display:flex; flex-direction:column; padding:18px 20px 22px; gap:16px; }
+  #mobile-menu a{ color:var(--paper); font-weight:600; font-size:1.02rem; }
+  @media(min-width:900px){
+    nav.primary-nav{ display:block; }
+    #menu-btn, #mobile-menu{ display:none !important; }
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{ background:var(--chili); background-image:radial-gradient(circle at 85% 15%, rgba(255,255,255,.06), transparent 45%); overflow:hidden; padding:64px 0 84px; }
+  .hero-grid{ display:grid; grid-template-columns:1fr; gap:52px; align-items:center; }
+  @media(min-width:960px){ .hero-grid{ grid-template-columns:1.15fr .85fr; gap:40px; } }
+  .hero h1{ color:var(--paper); font-size:clamp(2.3rem,5.4vw,3.6rem); }
+  .hero h1 em{ font-style:normal; color:var(--marigold); }
+  .hero-sub{ color:rgba(245,238,220,.88); font-size:clamp(1.02rem,2vw,1.18rem); max-width:34rem; margin-top:18px; line-height:1.6; }
+  .hero-ctas{ display:flex; flex-wrap:wrap; gap:14px; margin-top:30px; }
+  .hero-trust{ margin-top:34px; display:flex; flex-wrap:wrap; gap:10px 22px; color:rgba(245,238,220,.75); font-weight:600; font-size:.92rem; }
+  .hero-trust span i{ color:var(--marigold); margin-right:6px; }
+
+  .stamp-cluster{ position:relative; height:340px; }
+  .stamp{ position:absolute; border-radius:50%; border:3px dashed rgba(245,238,220,.65); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; color:var(--paper); background:rgba(255,255,255,.05); }
+  .stamp .num{ font-family:'Baloo 2',sans-serif; font-weight:800; font-size:1.7rem; line-height:1; }
+  .stamp .label{ font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.6px; margin-top:4px; max-width:80%; }
+  .stamp-1{ width:168px; height:168px; top:0; left:10%; transform:rotate(-8deg); }
+  .stamp-2{ width:150px; height:150px; top:120px; right:2%; transform:rotate(6deg); background:var(--marigold); border-color:var(--ink); color:var(--ink); }
+  .stamp-3{ width:150px; height:150px; bottom:0; left:22%; transform:rotate(-4deg); }
+  @media(max-width:959px){ .stamp-cluster{ height:280px; max-width:420px; margin:0 auto; } .stamp-1{left:2%;} .stamp-3{left:16%;} }
+
+  /* ---------- Ticker ---------- */
+  .ticker{ background:var(--ink); color:var(--marigold); padding:12px 0; overflow:hidden; border-bottom:1px solid rgba(228,161,38,.25); }
+  .ticker-track{ display:flex; gap:40px; white-space:nowrap; width:max-content; animation:tick 32s linear infinite; }
+  @keyframes tick{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+  .ticker-track span{ font-size:.82rem; font-weight:700; letter-spacing:.3px; text-transform:uppercase; display:inline-flex; align-items:center; gap:10px; }
+  .ticker-track span i{ color:var(--paper); font-size:.7rem; }
+
+  /* ---------- Section headers ---------- */
+  .sec-head{ max-width:44rem; margin-bottom:46px; }
+  .sec-head h2{ font-size:clamp(1.9rem,4vw,2.7rem); color:var(--ink); }
+  .sec-head p{ color:var(--ink-soft); font-size:1.08rem; margin-top:14px; line-height:1.6; }
+  .sec-pad{ padding:88px 0; }
+  @media(max-width:640px){ .sec-pad{ padding:64px 0; } }
+
+  /* ---------- Aisles / Products ---------- */
+  .aisle-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
+  @media(min-width:640px){ .aisle-grid{ grid-template-columns:repeat(3,1fr); } }
+  @media(min-width:960px){ .aisle-grid{ grid-template-columns:repeat(4,1fr); } }
+  .aisle{ border:2.5px solid var(--ink); border-radius:var(--radius-md); padding:20px 18px 22px; box-shadow:var(--shadow-tag-sm); transition:transform .18s ease, box-shadow .18s ease; background:var(--paper-alt); }
+  .aisle:nth-child(4n+1){ transform:rotate(-.6deg); }
+  .aisle:nth-child(4n+2){ transform:rotate(.5deg); }
+  .aisle:nth-child(4n+3){ transform:rotate(-.4deg); }
+  .aisle:nth-child(4n+4){ transform:rotate(.6deg); }
+  .aisle:hover{ transform:translateY(-5px) rotate(0deg); box-shadow:6px 6px 0 var(--ink); }
+  .aisle.tint-marigold{ background:var(--marigold-tint); }
+  .aisle.tint-chili{ background:var(--chili-tint); }
+  .aisle.tint-steel{ background:var(--steel-tint); }
+  .aisle-no{ font-size:.68rem; font-weight:800; letter-spacing:.5px; color:var(--ink-soft); text-transform:uppercase; }
+  .aisle-icon{ width:44px; height:44px; border-radius:10px; border:2px solid var(--ink); display:flex; align-items:center; justify-content:center; background:#fff; margin:10px 0 12px; }
+  .aisle-icon i{ font-size:1.15rem; color:var(--chili-dark); }
+  .aisle h3{ font-family:'Work Sans',sans-serif; font-weight:700; font-size:1.02rem; color:var(--ink); margin-bottom:5px; }
+  .aisle p{ font-size:.78rem; color:var(--ink-soft); line-height:1.45; }
+  .aisle-chip{ display:inline-block; margin-top:10px; font-size:.68rem; font-weight:800; text-transform:uppercase; letter-spacing:.4px; border:1.5px solid var(--ink); border-radius:6px; padding:3px 8px; background:var(--paper); }
+
+  .products-cta{ text-align:center; margin-top:52px; }
+  .products-cta p{ color:var(--ink-soft); margin-bottom:16px; font-weight:600; }
+
+  /* ---------- Brands strip ---------- */
+  .brands-strip{ background:var(--paper-alt); border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:44px 0; }
+  .brands-strip .label{ text-align:center; color:var(--ink-soft); font-weight:700; font-size:.82rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:26px; }
+  .brands-row{ display:flex; flex-wrap:wrap; justify-content:center; gap:34px 46px; }
+  .brands-row span{ font-family:'Baloo 2',sans-serif; font-weight:700; font-size:1.2rem; color:rgba(33,29,24,.38); transition:color .15s; }
+  .brands-row span:hover{ color:var(--chili); }
+
+  /* ---------- Services (ledger rows) ---------- */
+  .ledger{ display:grid; grid-template-columns:1fr; gap:0; border-top:2px solid var(--ink); }
+  @media(min-width:800px){ .ledger{ grid-template-columns:1fr 1fr; } }
+  .ledger-row{ display:flex; gap:18px; padding:26px 6px; border-bottom:2px solid var(--ink); }
+  @media(min-width:800px){ .ledger-row:nth-child(odd){ border-right:2px solid var(--ink); padding-right:26px; } .ledger-row:nth-child(even){ padding-left:26px; } }
+  .ledger-icon{ width:52px; height:52px; flex-shrink:0; border-radius:12px; border:2px solid var(--ink); display:flex; align-items:center; justify-content:center; font-size:1.25rem; }
+  .ledger-row h3{ font-family:'Work Sans',sans-serif; font-weight:700; font-size:1.12rem; margin-bottom:6px; }
+  .ledger-row p{ color:var(--ink-soft); font-size:.94rem; line-height:1.55; }
+
+  /* ---------- Promise / stamps strip ---------- */
+  .promise{ background:var(--steel-dark); padding:80px 0; }
+  .promise .sec-head h2{ color:var(--paper); }
+  .promise .sec-head p{ color:rgba(245,238,220,.78); }
+  .promise-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:22px; }
+  @media(min-width:800px){ .promise-grid{ grid-template-columns:repeat(4,1fr); } }
+  .promise-item{ text-align:center; }
+  .promise-circle{ width:92px; height:92px; border-radius:50%; border:3px dashed rgba(228,161,38,.55); display:flex; align-items:center; justify-content:center; margin:0 auto 16px; }
+  .promise-circle i{ color:var(--marigold); font-size:1.6rem; }
+  .promise-item h4{ color:var(--paper); font-family:'Work Sans',sans-serif; font-weight:700; font-size:1.05rem; margin-bottom:8px; }
+  .promise-item p{ color:rgba(245,238,220,.7); font-size:.88rem; line-height:1.5; }
+
+  /* ---------- Testimonials ---------- */
+  .notes-grid{ display:grid; grid-template-columns:1fr; gap:26px; }
+  @media(min-width:720px){ .notes-grid{ grid-template-columns:repeat(3,1fr); } }
+  .note{ background:var(--paper-alt); border:2px solid var(--ink); border-radius:var(--radius-md); padding:30px 24px 26px; position:relative; box-shadow:var(--shadow-tag-sm); }
+  .note:nth-child(1){ transform:rotate(-1deg); } .note:nth-child(2){ transform:rotate(.8deg); } .note:nth-child(3){ transform:rotate(-.6deg); }
+  .note .pin{ position:absolute; top:-10px; left:50%; transform:translateX(-50%); width:20px; height:20px; border-radius:50%; background:var(--chili); border:2px solid var(--ink); }
+  .note .stars{ color:var(--marigold-dark); margin-bottom:14px; font-size:.9rem; }
+  .note p.quote{ color:var(--ink); font-size:.98rem; line-height:1.6; margin-bottom:20px; }
+  .note-author{ display:flex; align-items:center; gap:12px; }
+  .avatar{ width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; border:2px solid var(--ink); }
+  .note-author .name{ font-weight:700; font-size:.9rem; }
+  .note-author .loc{ font-size:.78rem; color:var(--ink-soft); }
+
+  .review-banner{ margin-top:56px; background:var(--chili); border:2.5px solid var(--ink); border-radius:var(--radius-lg); box-shadow:var(--shadow-tag); padding:36px 32px; display:flex; flex-direction:column; gap:22px; align-items:center; text-align:center; }
+  @media(min-width:760px){ .review-banner{ flex-direction:row; justify-content:space-between; text-align:left; } }
+  .review-banner .stars-lg{ color:var(--marigold); font-size:1.4rem; margin-bottom:8px; }
+  .review-banner h3{ color:#fff; font-size:1.35rem; font-family:'Baloo 2',sans-serif; }
+  .review-banner p{ color:rgba(255,255,255,.85); margin-top:6px; font-size:.95rem; }
+
+  /* ---------- About ---------- */
+  .about-grid{ display:grid; grid-template-columns:1fr; gap:44px; align-items:stretch; }
+  @media(min-width:960px){ .about-grid{ grid-template-columns:1.1fr .9fr; } }
+  .about-panel{ background:var(--steel-dark); color:var(--paper); border-radius:var(--radius-lg); padding:42px 36px; border:2.5px solid var(--ink); box-shadow:var(--shadow-tag); }
+  .about-panel h2{ color:var(--paper); font-size:clamp(1.8rem,3.6vw,2.4rem); margin-bottom:20px; }
+  .about-panel p{ color:rgba(245,238,220,.85); line-height:1.65; margin-bottom:16px; }
+  .about-list{ margin-top:22px; display:flex; flex-direction:column; gap:13px; }
+  .about-list li{ display:flex; gap:12px; align-items:flex-start; color:rgba(245,238,220,.92); font-size:.95rem; }
+  .tick{ width:22px; height:22px; border-radius:50%; background:var(--marigold); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px; }
+  .tick i{ color:var(--ink); font-size:.66rem; }
+  .fact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .fact-tag{ border:2.5px solid var(--ink); border-radius:var(--radius-md); padding:22px 20px; box-shadow:var(--shadow-tag-sm); }
+  .fact-tag i{ font-size:1.5rem; margin-bottom:12px; display:block; }
+  .fact-tag h4{ font-family:'Work Sans',sans-serif; font-weight:700; font-size:1.02rem; margin-bottom:6px; }
+  .fact-tag p{ font-size:.85rem; line-height:1.5; }
+  .fact-a{ background:var(--marigold); }
+  .fact-b{ background:var(--paper-alt); }
+  .fact-c{ background:var(--paper-alt); }
+  .fact-d{ background:var(--chili-tint); }
+
+  /* ---------- Contact ---------- */
+  .contact-grid{ display:grid; grid-template-columns:1fr; gap:44px; align-items:start; }
+  @media(min-width:960px){ .contact-grid{ grid-template-columns:1fr 1fr; } }
+  .ticket{ display:flex; gap:16px; padding:20px 4px; border-bottom:2px dashed var(--line); }
+  .ticket:last-child{ border-bottom:none; }
+  .ticket-icon{ width:48px; height:48px; flex-shrink:0; border-radius:12px; border:2px solid var(--ink); display:flex; align-items:center; justify-content:center; font-size:1.1rem; }
+  .ticket h4{ font-family:'Work Sans',sans-serif; font-weight:700; font-size:1.02rem; margin-bottom:5px; }
+  .ticket p{ color:var(--ink-soft); font-size:.9rem; line-height:1.55; }
+  .ticket a.action{ display:inline-flex; align-items:center; gap:6px; font-weight:700; font-size:.82rem; margin-top:8px; color:var(--chili-dark); }
+  .ticket a.action:hover{ text-decoration:underline; }
+  .map-frame{ border:2.5px solid var(--ink); border-radius:var(--radius-lg); overflow:hidden; box-shadow:var(--shadow-tag); height:420px; }
+  .map-frame iframe{ width:100%; height:100%; border:0; display:block; }
+
+  /* ---------- FAQ ---------- */
+  .faq-list{ max-width:44rem; }
+  details{ border-bottom:2px solid var(--line); padding:18px 2px; }
+  details:first-child{ border-top:2px solid var(--line); }
+  summary{ cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px; font-weight:700; font-size:1.02rem; color:var(--ink); }
+  summary::-webkit-details-marker{ display:none; }
+  summary .plus{ width:26px; height:26px; border-radius:50%; border:2px solid var(--ink); flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:.9rem; transition:transform .2s; }
+  details[open] summary .plus{ transform:rotate(45deg); }
+  details p{ color:var(--ink-soft); margin-top:12px; font-size:.94rem; line-height:1.6; padding-right:40px; }
+
+  /* ---------- Footer ---------- */
+  footer{ background:var(--ink); color:rgba(245,238,220,.8); border-top:6px solid var(--marigold); }
+  .footer-grid{ display:grid; grid-template-columns:1fr; gap:40px; padding:64px 0 40px; }
+  @media(min-width:800px){ .footer-grid{ grid-template-columns:1.4fr 1fr 1fr; } }
+  .footer-brand p{ color:rgba(245,238,220,.65); margin:16px 0; max-width:26rem; line-height:1.6; }
+  footer h4{ font-family:'Work Sans',sans-serif; font-weight:700; color:var(--paper); font-size:1rem; margin-bottom:18px; }
+  footer .flinks li{ margin-bottom:11px; }
+  footer .flinks a{ color:rgba(245,238,220,.68); font-size:.92rem; }
+  footer .flinks a:hover{ color:var(--marigold); }
+  footer .fcontact li{ display:flex; gap:10px; margin-bottom:14px; font-size:.9rem; color:rgba(245,238,220,.75); align-items:flex-start; }
+  footer .fcontact i{ color:var(--marigold); margin-top:3px; width:14px; }
+  .footer-bottom{ border-top:1px solid rgba(245,238,220,.14); padding:22px 0; display:flex; flex-direction:column; gap:8px; font-size:.82rem; color:rgba(245,238,220,.5); }
+  @media(min-width:700px){ .footer-bottom{ flex-direction:row; justify-content:space-between; } }
+
+  /* ---------- Floating buttons ---------- */
+  .float-btn{ position:fixed; z-index:90; width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2.5px solid var(--ink); box-shadow:var(--shadow-tag-sm); transition:transform .15s; }
+  .float-btn:hover{ transform:translateY(-3px); }
+  #wa-float{ right:22px; bottom:22px; background:#25D366; color:#fff; font-size:1.5rem; }
+  #top-btn{ left:22px; bottom:22px; background:var(--marigold); color:var(--ink); font-size:1.1rem; opacity:0; pointer-events:none; transition:opacity .2s, transform .15s; }
+  #top-btn.show{ opacity:1; pointer-events:auto; }
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header id="site-header">
+  <div class="wrap header-row">
+    <a href="#home" class="brand" aria-label="Moti Enterprises home">
+      <span class="brand-mark"><i class="fa-solid fa-kitchen-set"></i></span>
+      <span class="brand-word">Moti<span>&nbsp;Enterprises</span></span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Visit Us</a></li>
+      </ul>
+    </nav>
+    <button id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </button>
+  </div>
+  <div id="mobile-menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Everything your kitchen needs, <em>under one roof.</em></h1>
+        <p class="hero-sub">From gas stoves to mocktail glasses, air fryers to ceiling fans — Moti Enterprises has stocked Baramati's kitchens for over a decade, with EMI options and delivery across town.</p>
+        <div class="hero-ctas">
+          <a href="tel:+919822038320" class="btn btn-marigold"><i class="fa-solid fa-phone"></i> Call the Store</a>
+          <a href="#products" class="btn btn-outline"><i class="fa-solid fa-bowl-food"></i> See What's in Store</a>
+        </div>
+        <div class="hero-trust">
+          <span><i class="fa-solid fa-check"></i>Station Rd, opp. Jain Mandir</span>
+          <span><i class="fa-solid fa-check"></i>Genuine brands, full warranty</span>
+          <!-- <span><i class="fa-solid fa-check"></i>EMI available</span> -->
+        </div>
+      </div>
+      <div class="stamp-cluster" aria-hidden="true">
+        <div class="stamp stamp-1"><span class="num">10+</span><span class="label">Years Serving</span></div>
+        <div class="stamp stamp-2"><span class="num">5000+</span><span class="label">Happy Homes</span></div>
+        <div class="stamp stamp-3"><span class="num">1000+</span><span class="label">Products</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="wrap" style="overflow:hidden;">
+      <div class="ticker-track">
+        <span><i class="fa-solid fa-fire"></i>Air fryers at the best prices in Baramati</span>
+        <span><i class="fa-solid fa-tag"></i>New dinner sets &amp; cutlery just arrived</span>
+        <span><i class="fa-solid fa-wine-glass"></i>Elegant mocktail glass sets in stock</span>
+        <!-- <span><i class="fa-solid fa-credit-card"></i>EMI available on all products</span> -->
+        <!-- <span><i class="fa-solid fa-truck"></i>Home delivery across Baramati</span> -->
+        <span><i class="fa-solid fa-fire"></i>Air fryers at the best prices in Baramati</span>
+        <span><i class="fa-solid fa-tag"></i>New dinner sets &amp; cutlery just arrived</span>
+        <span><i class="fa-solid fa-wine-glass"></i>Elegant mocktail glass sets in stock</span>
+        <!-- <span><i class="fa-solid fa-credit-card"></i>EMI available on all products</span> -->
+        <!-- <span><i class="fa-solid fa-truck"></i>Home delivery across Baramati</span> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCTS: AISLES -->
+  <section id="products" class="sec-pad">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Walk the aisles</h2>
+        <p>Sixteen aisles, one thousand products — from the stove to the dining table. Here's what you'll find when you visit.</p>
+      </div>
+      <div class="aisle-grid">
+
+        <div class="aisle"><span class="aisle-no">Aisle 01</span>
+          <div class="aisle-icon"><i class="fa-solid fa-temperature-full"></i></div>
+          <h3>Ovens &amp; Microwaves</h3><p>OTG · Microwave · Convection Oven</p>
+          <span class="aisle-chip">Hot Deal</span>
+        </div>
+        <div class="aisle tint-marigold"><span class="aisle-no">Aisle 02</span>
+          <div class="aisle-icon"><i class="fa-solid fa-wind"></i></div>
+          <h3>Air Fryers</h3><p>2L · 3L · 5L · Digital · Analog</p>
+          <span class="aisle-chip">Best Seller</span>
+        </div>
+        <div class="aisle tint-chili"><span class="aisle-no">Aisle 03</span>
+          <div class="aisle-icon"><i class="fa-solid fa-fire-burner"></i></div>
+          <h3>Gas Stoves</h3><p>2 / 3 / 4 Burner · Schott Glass Top</p>
+          <span class="aisle-chip">Top Pick</span>
+        </div>
+        <div class="aisle tint-steel"><span class="aisle-no">Aisle 04</span>
+          <div class="aisle-icon"><i class="fa-solid fa-bowl-food"></i></div>
+          <h3>Cookware &amp; Pots</h3><p>Non-stick · Kadhai · Pressure Cooker · Tawa</p>
+        </div>
+
+        <div class="aisle"><span class="aisle-no">Aisle 05</span>
+          <div class="aisle-icon"><i class="fa-solid fa-plate-wheat"></i></div>
+          <h3>Dinner Sets</h3><p>Ceramic · Melamine · Bone China · Steel</p>
+          <span class="aisle-chip">New Arrivals</span>
+        </div>
+        <div class="aisle tint-marigold"><span class="aisle-no">Aisle 06</span>
+          <div class="aisle-icon"><i class="fa-solid fa-utensils"></i></div>
+          <h3>Cutlery Sets</h3><p>Spoons · Forks · Knives · Serving Sets</p>
+        </div>
+        <div class="aisle tint-chili"><span class="aisle-no">Aisle 07</span>
+          <div class="aisle-icon"><i class="fa-solid fa-mug-hot"></i></div>
+          <h3>Cups &amp; Mugs</h3><p>Tea Cups · Coffee Mugs · Sets of 6/12</p>
+        </div>
+        <div class="aisle tint-steel"><span class="aisle-no">Aisle 08</span>
+          <div class="aisle-icon"><i class="fa-solid fa-wine-glass-empty"></i></div>
+          <h3>Mocktail Glasses</h3><p>Highball · Goblet · Shot · Juice Glasses</p>
+          <span class="aisle-chip">Elegant</span>
+        </div>
+
+        <div class="aisle"><span class="aisle-no">Aisle 09</span>
+          <div class="aisle-icon"><i class="fa-solid fa-bottle-water"></i></div>
+          <h3>Water Bottles</h3><p>Insulated · Steel · Sipper · Sports</p>
+        </div>
+        <div class="aisle tint-marigold"><span class="aisle-no">Aisle 10</span>
+          <div class="aisle-icon"><i class="fa-solid fa-fan"></i></div>
+          <h3>Ceiling Fans</h3><p>Decorative · High Speed · BEE Star Rated</p>
+          <span class="aisle-chip">Energy Saver</span>
+        </div>
+        <div class="aisle tint-chili"><span class="aisle-no">Aisle 11</span>
+          <div class="aisle-icon"><i class="fa-solid fa-kitchen-set"></i></div>
+          <h3>Kitchen Tools</h3><p>Peelers · Graters · Ladles · Spatulas</p>
+        </div>
+        <div class="aisle tint-steel"><span class="aisle-no">Aisle 12</span>
+          <div class="aisle-icon"><i class="fa-solid fa-box"></i></div>
+          <h3>Storage Containers</h3><p>Airtight · Steel Dabbas · Lunch Boxes · Jars</p>
+        </div>
+
+        <div class="aisle"><span class="aisle-no">Aisle 13</span>
+          <div class="aisle-icon"><i class="fa-solid fa-blender"></i></div>
+          <h3>Blenders &amp; Mixers</h3><p>Mixer Grinder · Blender · Juicer</p>
+        </div>
+        <div class="aisle tint-marigold"><span class="aisle-no">Aisle 14</span>
+          <div class="aisle-icon"><i class="fa-solid fa-mug-saucer"></i></div>
+          <h3>Kettles &amp; Coffee</h3><p>Electric Kettle · Coffee Maker · French Press</p>
+        </div>
+        <div class="aisle tint-chili"><span class="aisle-no">Aisle 15</span>
+          <div class="aisle-icon"><i class="fa-solid fa-drum-steelpan"></i></div>
+          <h3>Casseroles &amp; Serving</h3><p>Hot Cases · Serving Bowls · Trays</p>
+        </div>
+        <div class="aisle tint-steel"><span class="aisle-no">Aisle 16</span>
+          <div class="aisle-icon"><i class="fa-regular fa-clipboard"></i></div>
+          <h3>Chopping &amp; Knives</h3><p>Chopping Boards · Chef Knives · Knife Sets</p>
+        </div>
+
+      </div>
+
+      <div class="products-cta">
+        <p>Can't find what you need? We stock 1000+ products in-store.</p>
+        <a href="tel:+919822038320" class="btn btn-chili"><i class="fa-solid fa-phone"></i> Call to Check Stock &amp; Availability</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <section class="brands-strip">
+    <div class="wrap">
+      <p class="label">Brands we stock</p>
+      <div class="brands-row">
+        <span>Prestige</span><span>Pigeon</span><span>Butterfly</span><span>Hawkins</span>
+        <span>Borosil</span><span>Milton</span><span>Bajaj</span><span>Usha</span><span>Crompton</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="sec-pad">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>More than just a shop</h2>
+        <p>We go beyond selling products — we make sure your kitchen is set up for success.</p>
+      </div>
+      <div class="ledger">
+        <!-- <div class="ledger-row">
+          <div class="ledger-icon" style="background:var(--marigold-tint);"><i class="fa-solid fa-truck-fast"></i></div>
+          <div><h3>Home Delivery</h3><p>We deliver bulky items like gas stoves, fans and large cookware sets right to your doorstep anywhere in Baramati.</p></div>
+        </div>
+        <div class="ledger-row">
+          <div class="ledger-icon" style="background:var(--chili-tint);"><i class="fa-solid fa-credit-card"></i></div>
+          <div><h3>Easy EMI Plans</h3><p>Buy your dream kitchen setup on easy EMI through leading banks and finance partners.</p></div>
+        </div> -->
+        <div class="ledger-row">
+          <div class="ledger-icon" style="background:var(--steel-tint);"><i class="fa-solid fa-award"></i></div>
+          <div><h3>100% Genuine Products</h3><p>Every product is sourced from authorised distributors with proper bills, warranty cards and ISI marks.</p></div>
+        </div>
+        <div class="ledger-row">
+          <div class="ledger-icon" style="background:var(--marigold-tint);"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <div><h3>Exchange &amp; Upgrade</h3><p>Exchange your old cookware or appliances and upgrade to new ones at a fair value.</p></div>
+        </div>
+        <div class="ledger-row">
+          <div class="ledger-icon" style="background:var(--chili-tint);"><i class="fa-solid fa-gift"></i></div>
+          <div><h3>Gift &amp; Wedding Sets</h3><p>Perfect wedding gifts, housewarming gifts and festive hampers — customised for any occasion.</p></div>
+        </div>
+        <div class="ledger-row">
+          <div class="ledger-icon" style="background:var(--steel-tint);"><i class="fa-solid fa-headset"></i></div>
+          <div><h3>Expert Advice</h3><p>Not sure what to buy? Our staff will guide you to the right product for your kitchen, size and budget.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMISE -->
+  <section class="promise">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The Moti Enterprises difference</h2>
+        <p>A decade of trust, quality and smiling kitchens across Baramati.</p>
+      </div>
+      <div class="promise-grid">
+        <div class="promise-item"><div class="promise-circle"><i class="fa-solid fa-award"></i></div><h4>Quality First</h4><p>Only trusted brands with warranties. No compromises.</p></div>
+        <div class="promise-item"><div class="promise-circle"><i class="fa-solid fa-tags"></i></div><h4>Fair Prices</h4><p>Transparent pricing, no hidden costs, always.</p></div>
+        <div class="promise-item"><div class="promise-circle"><i class="fa-solid fa-store"></i></div><h4>Wide Selection</h4><p>1000+ products across every kitchen &amp; home category.</p></div>
+        <div class="promise-item"><div class="promise-circle"><i class="fa-solid fa-heart"></i></div><h4>Personal Service</h4><p>We treat every customer like family.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="sec-pad">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>From Baramati's kitchens</h2>
+        <p>Real words from customers who've shopped with us.</p>
+      </div>
+      <div class="notes-grid">
+        <div class="note"><span class="pin"></span>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="quote">"Got a beautiful dinner set and mocktail glasses for my daughter's wedding. So many options, and the quality is excellent. Best shop in Baramati!"</p>
+          <div class="note-author"><div class="avatar" style="background:var(--chili);">S</div><div><div class="name">Sunita Jadhav</div><div class="loc">Baramati</div></div></div>
+        </div>
+        <div class="note"><span class="pin"></span>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <!-- <p class="quote">"Bought an air fryer and a 3-burner gas stove on EMI. The process was super easy and they even delivered it home. Very happy!"</p> -->
+          <div class="note-author"><div class="avatar" style="background:var(--steel);">R</div><div><div class="name">Ramesh Kulkarni</div><div class="loc">Baramati</div></div></div>
+        </div>
+        <div class="note"><span class="pin"></span>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+          <p class="quote">"I was looking for a specific pressure cooker and they had it in stock. Reasonable prices, helpful staff. My entire kitchen is from Moti Enterprises!"</p>
+          <div class="note-author"><div class="avatar" style="background:var(--marigold-dark);">P</div><div><div class="name">Priya Shinde</div><div class="loc">Baramati</div></div></div>
+        </div>
+      </div>
+
+      <!-- Google Review CTA -->
+      <div class="review-banner">
+        <div>
+          <div class="stars-lg"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <h3>Loved shopping with us?</h3>
+          <p>Leave us a review on Google — it helps other Baramati families find us.</p>
+        </div>
+        <a href="https://www.google.com/maps?cid=7679562592753166012" target="_blank" rel="noopener" class="btn btn-white"><i class="fa-brands fa-google"></i> Rate Us on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="sec-pad">
+    <div class="wrap about-grid">
+      <div class="about-panel">
+        <h2>The heart of every Baramati kitchen</h2>
+        <p>Moti Enterprises is Baramati's most trusted kitchen and home store, proudly located on <strong>Station Road, opposite Jain Mandir</strong>. For over a decade, we've helped families set up beautiful, functional kitchens.</p>
+        <p>Whether you're setting up a new home, gifting for a wedding, or just replacing an old cooker — we have everything you need at prices that make sense. Walk in and feel the difference.</p>
+        <ul class="about-list">
+          <li><span class="tick"><i class="fa-solid fa-check"></i></span>1000+ products across kitchen, dining and home categories</li>
+          <li><span class="tick"><i class="fa-solid fa-check"></i></span>Authorised dealer for Prestige, Pigeon, Borosil, Milton &amp; more</li>
+          <li><span class="tick"><i class="fa-solid fa-check"></i></span>Transparent GST billing &amp; full warranty on all products</li>
+          <li><span class="tick"><i class="fa-solid fa-check"></i></span>Special discounts on bulk purchases &amp; wedding shopping</li>
+        </ul>
+      </div>
+      <div class="fact-grid">
+        <div class="fact-tag fact-a"><i class="fa-solid fa-map-location-dot"></i><h4>Our Location</h4><p>Station Rd, opp. Jain Mandir, Baramati, MH 413102</p></div>
+        <div class="fact-tag fact-b"><i class="fa-solid fa-clock" style="color:var(--chili-dark);"></i><h4>Store Hours</h4><p>Mon – Sat: 10 AM – 8 PM<br/>Sunday: 11 AM – 6 PM</p></div>
+        <div class="fact-tag fact-c"><i class="fa-solid fa-money-bill-wave" style="color:var(--steel);"></i><h4>Payment Options</h4><p>Cash · UPI · Card — all modes accepted</p></div>
+        <div class="fact-tag fact-d"><i class="fa-solid fa-gift" style="color:var(--chili-dark);"></i><h4>Gift Shopping</h4><p>Wedding gifts · Housewarming · Festive hampers</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="sec-pad">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Visit our store</h2>
+        <p>Come experience the largest kitchen and home essentials store in Baramati.</p>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <div class="ticket">
+            <div class="ticket-icon" style="background:var(--marigold-tint);"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Store Address</h4>
+              <p>Station Rd, opposite Jain Mandir,<br/>Baramati, Maharashtra 413102</p>
+              <a class="action" href="https://maps.app.goo.gl/fk3SPmpvsMMfwcSW8" target="_blank" rel="noopener"><i class="fa-solid fa-directions"></i> Get Directions on Google Maps</a>
+            </div>
+          </div>
+          <div class="ticket">
+            <div class="ticket-icon" style="background:#DFF5E6;"><i class="fa-brands fa-whatsapp" style="color:#1ebe57;"></i></div>
+            <div>
+              <h4>WhatsApp / Call Us</h4>
+              <p>Ask about product availability, prices, or place a home delivery order.</p>
+              <a class="action" href="https://wa.me/919822038320" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+            </div>
+          </div>
+          <div class="ticket">
+            <div class="ticket-icon" style="background:var(--chili-tint);"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Monday – Saturday: <strong>10:00 AM – 8:00 PM</strong><br/>Sunday: <strong>11:00 AM – 6:00 PM</strong></p>
+            </div>
+          </div>
+          <div style="margin-top:26px;">
+            <a href="https://wa.me/919822038320?text=Hello%20Moti%20Enterprises%2C%20I%20have%20a%20kitchen%20product%20enquiry." target="_blank" rel="noopener" class="btn btn-ink" style="background:#25D366; border-color:var(--ink); color:#fff;"><i class="fa-brands fa-whatsapp"></i> Message Us on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="map-frame">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.5!2d74.572731!3d18.1490994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3a188cfcd2551%3A0x6a93497d736e26bc!2sMoti%20Enterprises!5e0!3m2!1sen!2sin!4v1694000000000!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Moti Enterprises location on Google Maps"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sec-pad" style="background:var(--paper-alt); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Common questions</h2>
+        <p>Quick answers before you visit or call.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Do you offer home delivery?<span class="plus">+</span></summary>
+          <p>Yes — we deliver bulky items like gas stoves, fans and large cookware sets right to your doorstep, anywhere in Baramati.</p>
+        </details>
+        <details>
+          <!-- <summary>Can I buy on EMI?<span class="plus">+</span></summary>
+          <p>Yes, easy EMI plans are available on major appliances through our banking and finance partners.</p>
+        </details> -->
+        <details>
+          <summary>Are your products genuine?<span class="plus">+</span></summary>
+          <p>Every product is sourced from authorised distributors, with proper GST bills, warranty cards and ISI marks.</p>
+        </details>
+        <details>
+          <summary>Can I exchange my old appliances?<span class="plus">+</span></summary>
+          <p>Yes — bring in your old cookware or appliances and we'll help you upgrade at a fair exchange value.</p>
+        </details>
+        <details>
+          <summary>What payment methods do you accept?<span class="plus">+</span></summary>
+          <p>Cash, UPI, card — whichever works best for you.</p>
+        </details>
+        <details>
+          <summary>What are your store timings?<span class="plus">+</span></summary>
+          <p>Monday–Saturday, 10 AM to 8 PM. Sunday, 11 AM to 6 PM.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="brand">
+        <span class="brand-mark"><i class="fa-solid fa-kitchen-set"></i></span>
+        <span class="brand-word">Moti<span>&nbsp;Enterprises</span></span>
+      </div>
+      <p>Your one-stop kitchen and home essentials store in Baramati. Quality products, fair prices and service with a smile — for over a decade.</p>
+      <div style="color:var(--marigold); display:flex; align-items:center; gap:6px;">
+        <i class="fa-solid fa-star" style="font-size:.8rem;"></i><i class="fa-solid fa-star" style="font-size:.8rem;"></i><i class="fa-solid fa-star" style="font-size:.8rem;"></i><i class="fa-solid fa-star" style="font-size:.8rem;"></i><i class="fa-solid fa-star" style="font-size:.8rem;"></i>
+        <span style="color:rgba(245,238,220,.55); font-size:.85rem; margin-left:4px;">Top rated kitchen store in Baramati</span>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="flinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="fcontact">
+        <li><i class="fa-solid fa-location-dot"></i><span>Station Rd, opp. Jain Mandir,<br/>Baramati, Maharashtra 413102</span></li>
+        <li><i class="fa-solid fa-clock"></i><span>Mon–Sat: 10 AM – 8 PM<br/>Sun: 11 AM – 6 PM</span></li>
+        <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/919822038320">WhatsApp Us</a></li>
+        <li><i class="fa-brands fa-google"></i><a href="https://maps.app.goo.gl/fk3SPmpvsMMfwcSW8" target="_blank" rel="noopener">Find on Google Maps</a></li>
+        <li><i class="fa-solid fa-star"></i><a href="https://www.google.com/maps?cid=7679562592753166012" target="_blank" rel="noopener">Rate Us on Google</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Moti Enterprises, Baramati. All rights reserved.</p>
+    <p>Kitchen &amp; Home Essentials · Station Rd, Baramati, MH</p>
+  </div>
+</footer>
+
+<a id="wa-float" class="float-btn" href="https://wa.me/919822038320?text=Hello%20Moti%20Enterprises%2C%20I%20have%20a%20kitchen%20product%20enquiry." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+<button id="top-btn" class="float-btn" aria-label="Scroll to top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<script>
+  var menuBtn = document.getElementById('menu-btn');
+  var mobileMenu = document.getElementById('mobile-menu');
+  var menuIcon = document.getElementById('menu-icon');
+  var open = false;
+  menuBtn.addEventListener('click', function(){
+    open = !open;
+    mobileMenu.classList.toggle('open', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuIcon.className = open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+  });
+  document.querySelectorAll('#mobile-menu a').forEach(function(a){
+    a.addEventListener('click', function(){
+      open = false; mobileMenu.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false'); menuIcon.className = 'fa-solid fa-bars';
+    });
+  });
+
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = this.getAttribute('href');
+      if(id.length > 1){
+        var t = document.querySelector(id);
+        if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth'}); }
+      }
+    });
+  });
+
+  var topBtn = document.getElementById('top-btn');
+  window.addEventListener('scroll', function(){
+    topBtn.classList.toggle('show', window.scrollY > 500);
+  });
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+</script>
+</body>
+</html>
